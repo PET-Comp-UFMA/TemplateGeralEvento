@@ -125,7 +125,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #381460;
+  background: #87CEFA;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -1209,7 +1209,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #faq {
-  padding: 60px 0;
+  padding-top: 100px;
 }
 
 #faq #faq-list {
