@@ -42,6 +42,7 @@ a:focus {
 p {
   padding: 0;
   margin: 0 0 20px 0;
+  text-align: justify;
 }
 
 h1,
@@ -151,9 +152,9 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #381460;
+  background: #87CEFA;
   bottom: 0;
-  left: calc(50% - 25px);
+  left: calc(50% - 30px);
 }
 
 .section-header h2 {
@@ -1234,8 +1235,42 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Orientacoes Section
 --------------------------------------------------------------*/
 
+#tit-fotos{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.img1{
+  margin-top: 30px;
+  max-width: 49%;
+  border-radius: 10px;
+}
+
+
+.imagens34{
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+.img2{
+  max-width: 49%;
+}
+
+.maps1{
+  text-align: center;
+}
+
+.maps2{
+  text-align: center;
+  display: none;
+}
+
+#info {
+  padding-top: 100px;
+}
+
 #faq {
-  padding: 60px 0;
+  padding-top: 60px;
 }
 
 #faq #faq-list {
@@ -1813,6 +1848,58 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #1B100A;
   font-weight: 600;
 }
+
+/* ---- Anais ----*/
+
+#btn-anais{
+  width: 200px;
+  font-weight:bold ;
+  padding: 5px;
+  margin: 20px auto 50px auto;
+  background-color: #87CEFA;
+  border: solid 3px #3C4858;
+  color: #3C4858;
+  border-radius: 8px;
+}
+
+#btn-anais:hover{
+  cursor: pointer;
+  background-color: #3C4858;
+  color:#87CEFA;
+
+}
+
+.btn-table{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  background-color: rgb(88, 192, 88);
+  border-radius: 50px;
+  border: solid 1px #fff;
+}
+
+.btn-table i{
+  font-size: medium;
+  text-align: center;
+  color: #fff;
+  
+}
+
+table tr{
+  text-align: center;
+}
+
+/* deliberacoes*/
+
+.deliberacoes h4{
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: left;
+}
+
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
@@ -1831,6 +1918,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   #schedule .nav-tabs a {
     padding: 8px 50px;
   }
+  .maps1{
+    display: none;
+  }
+  .maps2{
+    display: block;
+  }
+
 }
 
 @media (max-width: 574px) {
