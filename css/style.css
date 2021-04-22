@@ -1787,6 +1787,46 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #1B100A;
   font-weight: 600;
 }
+
+/* ---- Anais ----*/
+
+#btn-anais{
+  width: 200px;
+  font-weight:bold ;
+  padding: 5px;
+  margin: 20px auto 50px auto;
+  background-color: #f5f5f5;
+  border: solid 3px #87CEFA;
+  border-radius: 8px;
+}
+
+#btn-anais:hover{
+  cursor: pointer;
+}
+
+.btn-table{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  background-color: rgb(88, 192, 88);
+  border-radius: 50px;
+  border: solid 1px #fff;
+}
+
+.btn-table i{
+  font-size: medium;
+  text-align: center;
+  color: #fff;
+  
+}
+
+table tr{
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
