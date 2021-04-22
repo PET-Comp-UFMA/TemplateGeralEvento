@@ -114,6 +114,32 @@ h6 {
 /* Sections Header
 --------------------------------*/
 
+.section-header-first{
+  margin-top: 100px;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.section-header-first::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 5px;
+  background: #381460;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.section-header-first h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
 .section-header {
   margin-bottom: 20px;
   position: relative;
@@ -1822,6 +1848,58 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #1B100A;
   font-weight: 600;
 }
+
+/* ---- Anais ----*/
+
+#btn-anais{
+  width: 200px;
+  font-weight:bold ;
+  padding: 5px;
+  margin: 20px auto 50px auto;
+  background-color: #87CEFA;
+  border: solid 3px #3C4858;
+  color: #3C4858;
+  border-radius: 8px;
+}
+
+#btn-anais:hover{
+  cursor: pointer;
+  background-color: #3C4858;
+  color:#87CEFA;
+
+}
+
+.btn-table{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  background-color: rgb(88, 192, 88);
+  border-radius: 50px;
+  border: solid 1px #fff;
+}
+
+.btn-table i{
+  font-size: medium;
+  text-align: center;
+  color: #fff;
+  
+}
+
+table tr{
+  text-align: center;
+}
+
+/* deliberacoes*/
+
+.deliberacoes h4{
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: left;
+}
+
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
