@@ -1721,6 +1721,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #ddd;
 }
 
+
+/* tabela documentos */
+.tabela-doc{
+  margin-top: 50px;
+}
+
+.doc-txt{
+  margin-top: 100px;
+}
+
+/*-----------*/
+
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
