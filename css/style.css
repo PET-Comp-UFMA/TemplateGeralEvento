@@ -4,7 +4,7 @@
   Author: BootstrapMade.com
   License: https://bootstrapmade.com/license/
 */
-
+ 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -27,7 +27,7 @@ body#body{
 }
 
 a {
-  color: #381460;
+  color: #3C4858;
   transition: 0.5s;
 }
 
@@ -83,7 +83,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #8155BA;
+  background: #87CEFA;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -100,14 +100,14 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #5C038C;
+  background: #050C38;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background:#5C038C;
-  color:  #fff;
+  background:#050C38;
+  color:  #fff; 
 }
 
 /* Sections Header
@@ -125,7 +125,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #381460;
+  background: #87CEFA;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -158,7 +158,7 @@ h6 {
 #header {
   height: 90px;
   padding: 25px 0;
-  position: fixed;
+  position: relative;
   left: 0;
   top: 0;
   right: 0;
@@ -169,6 +169,8 @@ h6 {
   padding: 15px 0;
   transition: all 0.5s;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  display: flex !important;
+  justify-content: center;
 }
 
 #header.header-scrolled,
@@ -272,8 +274,8 @@ h6 {
 /* Nav Meu Container */
 
 #nav-menu-container {
-  float: right;
-  margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
 /* Nav Meu Styling */
@@ -321,7 +323,7 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #381460;
+  background-color: #87CEFA;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -335,10 +337,10 @@ h6 {
 
 .nav-menu li.buy-tickets a {
   color:  #fcf8ec;
-  background:#381460;
+  background:#3C4858;
   padding: 7px 22px;
   border-radius: 50px;
-  border: 2px solid #381460;
+  border: 2px solid #3C4858;
   transition: all ease-in-out 0.3s;
   font-weight: 800;
   margin-left: 8px;
@@ -349,7 +351,7 @@ h6 {
 
 .nav-menu li.buy-tickets a:hover {
   background: none;
-  color: #381460;
+  color: #3C4858;
 }
 
 .nav-menu li.buy-tickets:hover a:before,
@@ -406,7 +408,7 @@ h6 {
 }
 
 #mobile-nav-toggle i {
-  color: #381460;
+  color: #87CEFA;
 }
 
 /* Mobile Nav Styling */
@@ -417,7 +419,7 @@ h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: #381460;;
+  background: #87CEFA;
 
   left: -260px;
   width: 260px;
@@ -465,11 +467,11 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #381460;
+  color: #87CEFA;
 }
 
 #mobile-nav ul .menu-item-active {
-  color:#381460;
+  color:#87CEFA;
 }
 
 #mobile-body-overly {
@@ -607,11 +609,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid transparent;
   top: -15%;
   left: -15%;
-  background: #8155BA;
+  background: #87CEFA;
 }
 
 #intro-2 .play-btn:hover::after {
-  border-left: 15px solid #8155BA;
+  border-left: 15px solid #87CEFA;
   -webkit-transform: scale(20); 
   transform: scale(20);
 }
@@ -649,11 +651,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #8155BA;
+  border: 2px solid #87CEFA;
 }
 
 #intro-2 .about-btn:hover {
-  background: #8155BA;
+  background: #87CEFA;
   color: #fff;
 }
 
@@ -708,7 +710,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
-  color:#8155BA;
+  color:#87CEFA;
 }
 
 #intro p {
@@ -720,7 +722,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#8155BA 50%, rgba(101, 111, 150, 0.15) 52%);
+  background: radial-gradient(#87CEFA 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -763,11 +765,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid transparent;
   top: -15%;
   left: -15%;
-  background: #8155BA;
+  background: #87CEFA;
 }
 
 #intro .play-btn:hover::after {
-  border-left: 15px solid #8155BA;
+  border-left: 15px solid #87CEFA;
   -webkit-transform: scale(20); 
   transform: scale(20);
 }
@@ -805,11 +807,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #8155BA;
+  border: 2px solid #87CEFA;
 }
 
 #intro-2 .about-btn:hover {
-  background: #8155BA;
+  background: #87CEFA;
   color: #fff;
 }
 
@@ -948,7 +950,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .speaker .details a:hover {
-  color: #51A2A6;
+  color: #87CEFA;
 }
 
 #speakers .speaker:hover .details {
@@ -983,7 +985,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers-details .details .social a:hover {
-  background: #51A2A6;
+  background: #87CEFA;
   color: #fff;
 }
 
@@ -1032,7 +1034,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .nav-tabs a.active {
-  background-color: #51A2A6;
+  background-color: #87CEFA;
   color: #fff;
 }
 
@@ -1124,15 +1126,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 40px;
 }
 .faq-whatsapp{
-  background: #381460;
+  background: #3C4858;
   color:white;
 }
 
 .faq-whatsapp:hover{
   text-decoration: none ;
   background: none;
-  color: #381460;
-  border-color: #381460;
+  color: #3C4858;
+  border-color: #3C4858;
 
 }
 
@@ -1152,11 +1154,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .card a{
-  color: #381460;
+  color: #3C4858;
   text-decoration: solid;
 }
 .card a h5{
-  color: #381460;
+  color: #3C4858;
   text-decoration: solid;
 }
 
@@ -1407,7 +1409,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 15px;
   background: no-repeat center;
   background-size: cover;;
-  border: #381460 solid 0.1px;
+  border: #3C4858 solid 0.1px;
   border-radius: 8px;
 }
 
@@ -1524,14 +1526,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #150036;
+  background: #050C38;
   padding: 0 0 10px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #352e41 ;
+  background: #3C4858 ;
   padding: 5px 15px 5px 15px;
 }
 
@@ -1583,7 +1585,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .social-links a:hover {
-  background:#5C038C;
+  background:#050C38;
   color:  #fff;
 }
 
