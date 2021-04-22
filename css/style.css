@@ -113,6 +113,32 @@ h6 {
 /* Sections Header
 --------------------------------*/
 
+.section-header-first{
+  margin-top: 100px;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.section-header-first::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 5px;
+  background: #381460;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.section-header-first h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
 .section-header {
   margin-bottom: 20px;
   position: relative;
