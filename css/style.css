@@ -1522,6 +1522,41 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
+# Inscrições Section
+--------------------------------------------------------------*/
+.tabela-inscrições {
+  border-collapse: collapse;
+  font-size: normal;
+  margin: 40px auto;
+  width: 60%;
+}
+
+td, th {
+  border: 2px solid #6ec5ff;
+  font-weight: 300;
+  padding: 4px;
+  text-align: center;
+}
+
+.btn-subscription {
+  border: none;
+  background: #3C4858;
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  text-decoration: none;
+  padding: 4px;
+  width: 110px;
+}
+
+.btn-subscription-text {
+  color: #fff;
+  font-family: 'Raleway';
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 
