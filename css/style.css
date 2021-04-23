@@ -20,7 +20,7 @@ body {
   background: #fff;
   color: #2f3138;
   font-family: "Open Sans", sans-serif;
-}SS
+}
 
 body#body{
   background: #F6F7FD;
@@ -34,7 +34,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #8155BA;
+  color: #51A2A6;
   outline: none;
   text-decoration: none;
 }
@@ -114,6 +114,7 @@ h6 {
 --------------------------------*/
 
 .section-header {
+  margin-top: 30px;
   margin-bottom: 20px;
   position: relative;
   padding-bottom: 20px;
@@ -1126,15 +1127,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 40px;
 }
 .faq-whatsapp{
-  background: #3C4858;
+  background: #51A2A6;
   color:white;
 }
 
 .faq-whatsapp:hover{
   text-decoration: none ;
   background: none;
-  color: #3C4858;
-  border-color: #3C4858;
+  color: #51A2A6;
+  border-color: #51A2A6;
 
 }
 
@@ -1257,58 +1258,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   content: "\f055" !important;
 }
 
-
-/*--------------------------------------------------------------
-# Deliberações
---------------------------------------------------------------*/
-
-.deliberacoes h4{
-    font-weight: bold;
-    text-align: left;
-}
-
-
-/*--------------------------------------------------------------
-# AnaiS
---------------------------------------------------------------*/
-
-.table-title{
-  font-weight: bold;
-}
-
-.btn-table{
-  border: solid 2px #fff;
-  border-radius: 50px;
-  width: 40px;
-  height: 40px;
-  background-color: #51A2A6;
-  
-}
-
-.btn-table:hover{
-  background-color: #4c989c;
-  cursor: pointer;
-  
-}
-.btn-table i{
-  color: #fff;
-}
-
-#btn-anais{
-  border: solid 2px #fff;
-  background-color: #51A2A6;
-  color: #fff;
-  width: 200px;
-  border-radius: 5px;
-  margin: 10px auto 40px auto;
-  padding: 7px;
-  font-weight: bold;
-}
-
-#btn-anais:hover{
-  background-color: #4c989c;
-  cursor: pointer;
-}
 /*--------------------------------------------------------------
 # Subscribe Section
 --------------------------------------------------------------*/
@@ -1461,8 +1410,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 15px;
   background: no-repeat center;
   background-size: cover;;
-  border: #3C4858 solid 0.1px;
-  border-radius: 8px;
+  border: #51A2A6 solid 1px;
 }
 
 /*--------------------------------------------------------------
@@ -1492,7 +1440,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .contact-info address,
 #contact .contact-info p {
   margin-bottom: 0;
-  color: #112363;
+  color: #51A2A6;
 }
 
 #contact .contact-info h3 {
@@ -1500,7 +1448,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 15px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #112363;
+  color: #51A2A6;
 }
 
 #contact .contact-info a {
